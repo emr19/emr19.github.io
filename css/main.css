@@ -230,4 +230,27 @@ nav li:hover a, nav li.current a {
 
 table {
   width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr:nth-child(odd) > td {
+  background-color: #f9f9f9;
+}
+
+th, td {
+  padding: 8px;
+  line-height: 1.45;
+}
+
+th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
 }

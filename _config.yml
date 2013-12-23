@@ -1,0 +1,13 @@
+name: "EMR19: The Art of Numbers"
+markdown: redcarpet
+pygments: true
+
+navigation:
+  - text: Syllabus
+    url: /syllabus/index.html
+  - text: Calendar
+    url: /calendar/index.html
+  - text: Lectures
+    url: /lectures/index.html
+  - text: Assignments
+    url: /assignments/index.html

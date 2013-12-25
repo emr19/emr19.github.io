@@ -45,6 +45,7 @@ a:hover {
 
 iframe {
   border: 0;
+  margin: 20px 0 10px;
 }
 
 .subtitle {
@@ -73,21 +74,18 @@ nav {
   margin-right: 10px;
 }
 
-#content {
+main {
   padding: 25px;
   background: white;
   background: rgba(255,255,255,0.8);
 }
 
-main#with-sidebar {
-  margin-right: 250px;
-}
-
 aside {
   float: right;
-  width: 250px;
-  padding-left: 30px;
-  margin-top: 70px;
+  width: 260px;
+  border: 4px solid #f1eddb;
+  padding: 8px 15px 0;
+  margin: 70px 0 40px 25px;
 }
 
 footer {

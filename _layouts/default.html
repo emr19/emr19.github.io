@@ -4,10 +4,29 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Harvard EMR19 The Art of Numbers{% unless page.title == nil %} — {{ page.title }}{% endunless %}</title>
+    <title>Harvard EMR19: The Art of Numbers{% unless page.title == nil %} — {{ page.title }}{% endunless %}</title>
     <meta content="David Chouinard" name="author" />
 
     <link rel="stylesheet" href="/css/main.css">
+
+    <!--TODO-->
+    <!--<meta property="fb:app_id" content="123456789012345">-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Harvard EMR19: The Art of Numbers">
+
+    {% unless page.title == nil %}
+    <meta property="og:title" content="{{ page.title }}">
+    {% endunless %}
+
+    <meta property="og:image" content="/images/logo_square.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="600">
+
+    <meta property="og:image" content="/images//logo.jpg">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

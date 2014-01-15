@@ -91,12 +91,11 @@ aside {
 footer {
   text-align: center;
   font-size: 12px;
-  margin: 40px 0 40px;
+  margin: 25px 0 30px;
 }
 footer img {
   display: block;
   margin: 4px auto 0;
-  width: 40px;
 }
 
 /*

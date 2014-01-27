@@ -7,7 +7,7 @@ navigation:
     url: /syllabus/index.html
   - text: Calendar
     url: /calendar/index.html
-  - text: Lectures
-    url: /lectures/index.html
+  - text: Schedule
+    url: /schedule/index.html
   - text: Assignments
     url: /assignments/index.html

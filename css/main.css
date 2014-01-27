@@ -251,3 +251,38 @@ td {
   vertical-align: top;
   border-top: 1px solid #dddddd;
 }
+
+/*
+ * Schedule
+ */
+
+.schedule-item {
+  border-bottom: 1px solid #dddddd;
+}
+
+.schedule-item:last-child {
+  border-bottom: none;
+}
+
+.schedule-item ul {
+  list-style: none;
+  margin: 8px 0 16px;
+  padding-left: 20px;
+}
+
+.schedule-item li {
+  padding: 2px 0;
+}
+
+.schedule-item .c2 {
+  font-style: italic;
+}
+
+.schedule-item .c2, .schedule-item .c13 {
+  background-color: #fffcb8;
+}
+
+.leader {
+  font-weight: bold;
+  padding-right: 10px;
+}

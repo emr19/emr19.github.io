@@ -9,5 +9,3 @@ navigation:
     url: /calendar/index.html
   - text: Schedule
     url: /schedule/index.html
-  - text: Assignments
-    url: /assignments/index.html
